@@ -89,7 +89,12 @@ button {
 .show__requests{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px;
+    row-gap: 13px;
+    column-gap: 13px;
+
+}
+.request__control{
+   margin: 10px 15px;
 }
 
 @media screen and (min-width: 768px) {
@@ -125,4 +130,30 @@ button {
     display: block;
     font-size: 1.5rem;
     font-weight: 700;
+    margin-top: 1.5rem;
+}
+.request__id{
+    display: block;
+    color: var(--color-text-RequestID);
+}
+.footer__card{
+    display: grid;
+    grid-template-columns: 50px 1fr 125px;
+}
+.btn{
+    background-color: var(--color-bottom);
+    border-radius: var(--border-radius-md);
+    color: var(--color-secondary-0);
+    padding: 1.5rem 0.2rem;
+}
+.badge--image{
+    background-image: url(../assets/images/images1.jpg);
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-size: cover;
+    align-self: self-end;
+}
+.footercard-text{
+    align-self: self-end;
 }
