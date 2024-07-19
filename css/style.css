@@ -89,11 +89,30 @@ button {
 .show__requests{
     display: grid;
     grid-template-columns: 1fr;
+    gap: 10px;
 }
 
 @media screen and (min-width: 768px) {
     .show__requests{
         
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
   }
+
+  .request-header{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+  }
+
+  .badge{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: var(--color-badge);
+    text-align: center;
+    color: var(--color-text-header);
+    padding-top: 8px;
+  }
+.text{
+    padding-top: 8px;
+}
