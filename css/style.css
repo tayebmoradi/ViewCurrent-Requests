@@ -91,6 +91,7 @@ button {
     grid-template-columns: 1fr;
     row-gap: 13px;
     column-gap: 13px;
+    margin-top: 3.5rem;
 
 }
 .request__control{
@@ -131,6 +132,7 @@ button {
     text-align: center;
     color: var(--color-text-header);
     padding-top: 8px;
+    font-family: Vazirmatn;
   }
 .text{
     padding-top: 8px;
