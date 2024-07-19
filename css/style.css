@@ -137,11 +137,13 @@ button {
   }
 .text__request{
     padding-top: 8px;
-    color: var(--color-text-RequestID);
+    color: var(--color-text-header);
+    font-size: 1em;
+    font-weight: 700;
 }
 .text__request__date{
     padding-top: 8px;
-    color: var(--color-text-header);
+    color: var(--color-text-RequestID);
 }
 .membership__request{
     display: block;
