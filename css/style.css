@@ -120,7 +120,7 @@ button {
   }
 
 
-  .request-header{
+  .request__header{
     display: grid;
     grid-template-columns: 50px 1fr 50px;
   }
@@ -135,11 +135,11 @@ button {
     padding-top: 8px;
     font-family: Vazirmatn;
   }
-.text{
+.text__request{
     padding-top: 8px;
     color: var(--color-text-RequestID);
 }
-.text1{
+.text__request__date{
     padding-top: 8px;
     color: var(--color-text-header);
 }
@@ -163,7 +163,7 @@ button {
     color: var(--color-secondary-0);
     padding: 1.3rem 0.2rem;
 }
-.badge--image{
+.badge__image{
     background-image: url(../assets/images/images1.jpg);
     width: 30px;
     height: 30px;
@@ -171,6 +171,6 @@ button {
     background-size: cover;
     align-self: self-end;
 }
-.footercard-text{
+.footercard__text{
     align-self: self-end;
 }
