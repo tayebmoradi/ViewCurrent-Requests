@@ -75,3 +75,25 @@ button {
   cursor: pointer;
   padding: 0;
 }
+
+.request{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+.text__header{
+    display: block;
+    margin-top: 15px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.show__requests{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 768px) {
+    .show__requests{
+        
+        grid-template-columns: 1fr 1fr;
+    }
+  }
