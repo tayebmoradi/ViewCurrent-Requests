@@ -155,13 +155,13 @@ button {
 }
 .footer__card{
     display: grid;
-    grid-template-columns: 50px 1fr 125px;
+    grid-template-columns: 35px 1fr 125px;
 }
 .btn{
     background-color: var(--color-bottom);
     border-radius: var(--border-radius-md);
     color: var(--color-secondary-0);
-    padding: 1.5rem 0.2rem;
+    padding: 1.3rem 0.2rem;
 }
 .badge--image{
     background-image: url(../assets/images/images1.jpg);
