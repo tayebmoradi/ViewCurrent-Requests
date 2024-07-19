@@ -49,7 +49,7 @@
 
   --color-bottom:#219f95;
   --color-badge:#afcedd;
-  --color-text-header:#758dbc;
+  --color-text-header:#3e68bd;
   --color-text-RequestID:#aaaaaa;
 }
 
@@ -115,4 +115,14 @@ button {
   }
 .text{
     padding-top: 8px;
+    color: var(--color-text-RequestID);
+}
+.text1{
+    padding-top: 8px;
+    color: var(--color-text-header);
+}
+.membership__request{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
